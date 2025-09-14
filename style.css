@@ -1,9 +1,10 @@
 .header{
-    display:grid;
-    grid-template-columns: repeat(8,1fr);
+    display:flex;
+    /* grid-template-columns: repeat(8,1fr); */
     /* flex:repeat(8,1fr); */
+    flex-direction:row;
     align-items: center;
-    /* gap:10px; */
+    gap:10px;
     background-color:white;
     opacity:0.8;
     width:100%;
