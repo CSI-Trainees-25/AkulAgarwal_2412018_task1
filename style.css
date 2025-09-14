@@ -24,6 +24,9 @@
     transition-duration:.2s;
     transition-property:font-size .5s;
     transition-delay:100ms;
+    color:black;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif
 }
 .but-hdr:hover{
     font-weight: bold;
