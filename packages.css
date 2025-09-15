@@ -1,0 +1,48 @@
+.header{
+    display:flex;
+    /* grid-template-columns: repeat(8,1fr); */
+    /* flex:repeat(8,1fr); */
+    flex-direction:row;
+    align-items: center;
+    gap:10px;
+    background-color:white;
+    opacity:0.8;
+    width:100%;
+}
+.logo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px;
+    margin: 20px;
+    margin-right:100px;
+}
+.but-hdr{
+    padding:10px 20px;
+    border-radius: 18px;
+    border:none;
+    background-color:white;
+    font-size:18px;
+    transition-duration:.2s;
+    transition-property:font-size .5s;
+    transition-delay:100ms;
+    color:black;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif
+}
+.but-hdr:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color:rgb(30, 171, 25);
+    font-size:20px;
+}
+body{
+    background-color: rgb(211, 231, 243);
+}
+.beachvid{
+    position:absolute;
+    z-index:-1;
+    width:100%;
+    bottom:0;
+    right:0;
+    left:0;
+    width:100%;
+}
