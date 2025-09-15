@@ -38,7 +38,7 @@ body{
     background-color: rgb(211, 231, 243);
 }
 .beachvid{
-    position:absolute;
+    position:fixed;
     z-index:-1;
     width:100%;
     bottom:0;
