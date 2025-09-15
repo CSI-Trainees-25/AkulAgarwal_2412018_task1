@@ -38,11 +38,45 @@ body{
     background-color: rgb(211, 231, 243);
 }
 .beachvid{
-    position:absolute;
+    position:fixed;
     z-index:-1;
     width:100%;
     bottom:0;
     right:0;
     left:0;
     width:100%;
+}
+.pack{
+    width:1230px;
+    height:500px;
+    background-color:white;
+    margin:20px;
+    opacity:0.95;
+    border-radius:20px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.main{
+    display:flex;
+}
+.viet{
+    width:1190px;
+    margin:20px;
+    height:460px;
+    border-radius:10px;
+    opacity:1.5;
+}
+.cont{
+    position:absolute;
+}
+.rcont{
+    position:absolute;
+    color: white;
+    
+    top:0px;
+    left:40px;
+    z-index:20;
+    font-weight:bolder;
+    font-size: 60px;
 }
