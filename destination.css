@@ -44,6 +44,7 @@ body{
     bottom:0;
     right:0;
     left:0;
+    width:100%;
 }
 .pg2{
     display:flex;
@@ -58,12 +59,13 @@ body{
     gap:20px;
 }
 .list{
-    margin-top:50px;
+    margin-top:20px;
     background-color: white;
     width:380px;
-    height:420px;
+    height:480px;
     opacity:0.85;
     border-radius:20px;
+    transition-duration: 0.4s;
     /* display:flex; */
     /* align-items: center; */
     /* justify-self: center; */
@@ -79,12 +81,13 @@ body{
     margin-left:10px;
     color:white;
     background-color:rgb(240, 95, 95);
+    transition-duration: .4s;
 }
 .listimg{
     width: 90%;
     height:60%;
     /* background-color: red; */
-    margin:20px;
+    margin:20px 20px 10px 20px;
     /* border-radius:10px; */
     /* align-items: center; */
     /* justify-content: center; */
@@ -94,6 +97,36 @@ body{
     height:100%;
     border-radius:10px;
     /* opacity:1; */
+}
+.rdesc{
+    margin:0px 0px 3px 8px;
+}
+.hdesc{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px 0px 5px 8px;
+}
+.list:hover{
+    width:400px;
+    height:500px;
+    border-width: 4px;
+    border-color:rgb(240, 95, 95);
+    border-style:groove;
+    /* margin-left:10px; */
+    .hdesc:hover{
+        font-weight:bold;
+    }
+    .imgs:hover{
+        border-width: 1.5px;
+        border-color:rgb(240, 95, 95);
+        border-style:groove;
+    }
+    
+}
+.nbtn:hover{
+    height:45px;
+    width:45px;
+    border-radius:22.5px;
+    border-color: black;
 }
 
 
